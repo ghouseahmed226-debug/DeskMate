@@ -1,0 +1,8 @@
+# DeskMate runs with zero external dependencies for the core demo
+# (run_demo.py) -- everything is plain Python 3.9+.
+#
+# If you wire this up to real Google ADK and the MCP Python SDK for the
+# final submission, add:
+#
+# google-adk
+# mcp

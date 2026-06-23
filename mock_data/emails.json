@@ -1,0 +1,34 @@
+[
+  {
+    "id": "em-001",
+    "from": "boss@example.com",
+    "subject": "Q3 Budget Review - need your input",
+    "body": "Hi, can you review the attached budget numbers before Friday's meeting? Need your sign-off on the marketing spend line.",
+    "received": "2026-06-20T08:30:00",
+    "read": false
+  },
+  {
+    "id": "em-002",
+    "from": "newsletter@techdigest.com",
+    "subject": "5 AI trends to watch this week",
+    "body": "This week in AI: agentic systems, smaller models, and more.",
+    "received": "2026-06-20T07:00:00",
+    "read": false
+  },
+  {
+    "id": "em-003",
+    "from": "sarah@example.com",
+    "subject": "Re: Project Review prep",
+    "body": "Hey, can we sync 15 minutes before the review on Friday to align on slides?",
+    "received": "2026-06-21T16:45:00",
+    "read": false
+  },
+  {
+    "id": "em-004",
+    "from": "billing@cloudprovider.com",
+    "subject": "Your invoice is ready",
+    "body": "Your monthly invoice of $42.10 is now available in your billing portal.",
+    "received": "2026-06-21T10:00:00",
+    "read": true
+  }
+]

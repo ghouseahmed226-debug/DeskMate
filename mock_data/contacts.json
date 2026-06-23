@@ -1,0 +1,5 @@
+[
+  {"id": "c-001", "name": "Sarah Lee", "email": "sarah@example.com", "phone": "555-0101", "company": "Acme Corp"},
+  {"id": "c-002", "name": "Boss Person", "email": "boss@example.com", "phone": "555-0102", "company": "Acme Corp"},
+  {"id": "c-003", "name": "Dentist Office", "email": "front-desk@smiledental.com", "phone": "555-0199", "company": "Smile Dental"}
+]

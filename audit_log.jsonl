@@ -1,5 +1,0 @@
-{"timestamp": "2026-06-23T07:25:12.984408+00:00", "agent": "CalendarAgent", "tool": "get_calendar_events", "params": {"date": null}, "outcome": "ALLOWED", "detail": ""}
-{"timestamp": "2026-06-23T07:25:12.987557+00:00", "agent": "TaskCaptureAgent", "tool": "create_task", "params": {"title": "follow up with Sarah about the project review", "due": null}, "outcome": "ALLOWED", "detail": ""}
-{"timestamp": "2026-06-23T07:25:12.988875+00:00", "agent": "CalendarAgent", "tool": "create_calendar_event", "params": {"title": "prep for the Friday review", "start": "2026-07-04T10:00:00", "end": "2026-07-04T11:00:00"}, "outcome": "ALLOWED", "detail": ""}
-{"timestamp": "2026-06-23T07:25:13.004357+00:00", "agent": "EmailTriageAgent", "tool": "get_emails", "params": {"unread_only": true}, "outcome": "ALLOWED", "detail": ""}
-{"timestamp": "2026-06-23T07:25:13.004357+00:00", "agent": "EmailTriageAgent", "tool": "create_task", "params": {}, "outcome": "DENIED", "detail": "EmailTriageAgent is not permitted to call create_task"}

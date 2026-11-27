@@ -1,0 +1,15 @@
+[project]
+name = "deskmate-ai"
+version = "2.0.0"
+description = "DeskMate AI - Multi-agent personal AI operating system and AgenSi-ready skill pack"
+readme = "README.md"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+filterwarnings = [
+    "ignore::DeprecationWarning",
+]

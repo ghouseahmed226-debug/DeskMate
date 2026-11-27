@@ -1,10 +1,46 @@
 [
   {
     "id": "task-001",
-    "title": "follow up with Sarah about the project review",
-    "due": null,
-    "source": "orchestrator",
+    "title": "Follow up with Sarah about the project review",
+    "due": "2026-11-28T17:00:00",
+    "priority": "High",
+    "category": "Work",
+    "project": "Q4 Launch",
+    "tags": [
+      "review",
+      "stakeholder"
+    ],
+    "source": "email:em-003",
     "done": false,
-    "created": "2026-06-23T07:25:12.986536+00:00"
+    "created": "2026-11-20T09:00:00+00:00"
+  },
+  {
+    "id": "task-002",
+    "title": "Submit Q3 budget review marketing sign-off",
+    "due": "2026-11-26T17:00:00",
+    "priority": "Critical",
+    "category": "Finance",
+    "project": "Budget",
+    "tags": [
+      "budget",
+      "urgent"
+    ],
+    "source": "email:em-001",
+    "done": false,
+    "created": "2026-11-21T08:30:00+00:00"
+  },
+  {
+    "id": "task-003",
+    "title": "Download monthly cloud provider invoice",
+    "due": "2026-11-30T12:00:00",
+    "priority": "Low",
+    "category": "Billing",
+    "project": "Operations",
+    "tags": [
+      "invoice"
+    ],
+    "source": "email:em-004",
+    "done": true,
+    "created": "2026-11-22T10:00:00+00:00"
   }
 ]

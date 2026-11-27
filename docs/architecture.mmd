@@ -1,0 +1,27 @@
+graph TD
+    User([User]) -->|Natural Language| Orchestrator
+    
+    subgraph Agents
+        Orchestrator[Orchestrator<br/>LLM Intent Router]
+        CalAgent[CalendarAgent]
+        EmailAgent[EmailTriageAgent]
+        TaskAgent[TaskCaptureAgent]
+        
+        Orchestrator -->|Delegate| CalAgent
+        Orchestrator -->|Delegate| EmailAgent
+        Orchestrator -->|Delegate| TaskAgent
+    end
+
+    subgraph Backend
+        MCPServer{MCP Server<br/>(Permission Allowlist & Audit)}
+        MockData[(Mock JSON Data)]
+        
+        CalAgent -->|Tool Call| MCPServer
+        EmailAgent -->|Tool Call| MCPServer
+        TaskAgent -->|Tool Call| MCPServer
+        Orchestrator -->|Skill Call| MCPServer
+        
+        MCPServer -->|Read/Write| MockData
+    end
+    
+    style MCPServer fill:#ffcccc,stroke:#ff0000,stroke-width:2px
